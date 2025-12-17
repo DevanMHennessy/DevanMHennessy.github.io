@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - West Coast Carnivorous Plants</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-900 text-emerald-800">
+    <!-- NAVBAR -->
+    <nav class="bg-black shadow p-5">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-green-600">West Coast Carnivorous Plants</h1>
+            <div class="flex space-x-6 text-lg">
+                <a href="index.html" class="text-green-600 font-semibold hover:bg-pink-600">Home</a>
+                <a href="about.html" class="text-green-600 hover:text-pink-600">About</a>
+                <a href="PhotoGalley.html" class="text-green-600 hover:text-pink-600">Photo Gallery</a>                
+                <a href="contact.html" class="text-green-600 hover:text-pink-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="h-screen bg-[url('Images/backgrounds/background_plants.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
+        <div class="bg-black bg-opacity-50 p-10 rounded text-white text-center">
+            <h1 class="text-pink-500 text-5xl font-bold mb-4">Carnivorous Plants</h1>
+            <p class="text-green-600 text-lg mb-6">A beginners guide to growing on the west coast</p>
+            <a href="about.html" class="bg-green-800 text-white px-6 py-3 rounded hover:bg-pink-600 inline-block">
+                Learn More →
+            </a>
+        </div>
+    </section>
+
+    <!-- GRID SECTION WITH BACKGROUND IMAGES -->
+    <section class="max-w-7xl mx-auto mt-20 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+            
+            <!-- Card 1: Nepenthes Pitcher (CLICKABLE) -->
+            <a href="nepenthes.html" class="block">
+                <div class="bg-[url('Images/plants/Nepenthes.jpg')] bg-cover bg-center rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-80 cursor-pointer">
+                    <div class="bg-black bg-opacity-60 h-full p-6 flex flex-col justify-end hover:bg-opacity-40 transition-all duration-300">
+                        <h3 class="text-white text-xl font-bold mb-2">Nepenthes Pitcher</h3>
+                        <p class="text-gray-200 text-sm">Tropical pitcher plants with stunning traps</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 2: Sarracenia Trumpet (CLICKABLE) -->
+            <a href="sarracenia.html" class="block">
+                <div class="bg-[url('Images/plants/sarracenia.jpeg')] bg-cover bg-center rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-80 cursor-pointer">
+                    <div class="bg-black bg-opacity-60 h-full p-6 flex flex-col justify-end hover:bg-opacity-40 transition-all duration-300">
+                        <h3 class="text-white text-xl font-bold mb-2">Sarracenia Trumpet</h3>
+                        <p class="text-gray-200 text-sm">North American pitcher plants for temperate climates</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 3: Drosera Sundew (CLICKABLE) -->
+            <a href="drosera.html" class="block">
+                <div class="bg-[url('Images/plants/drosera.jpg')] bg-cover bg-center rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-80 cursor-pointer">
+                    <div class="bg-black bg-opacity-60 h-full p-6 flex flex-col justify-end hover:bg-opacity-40 transition-all duration-300">
+                        <h3 class="text-white text-xl font-bold mb-2">Drosera Sundew</h3>
+                        <p class="text-gray-200 text-sm">Sticky traps that glisten in the sun</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 4: Dionaea Venus Fly Trap (CLICKABLE) -->
+            <a href="dionaea.html" class="block">
+                <div class="bg-[url('Images/plants/dionaea.jpg')] bg-cover bg-center rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-80 cursor-pointer">
+                    <div class="bg-black bg-opacity-60 h-full p-6 flex flex-col justify-end hover:bg-opacity-40 transition-all duration-300">
+                        <h3 class="text-white text-xl font-bold mb-2">Dionaea Venus Fly Trap</h3>
+                        <p class="text-gray-200 text-sm">The iconic snap-trap plant</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 5: Pinguicula Butterwort (CLICKABLE) -->
+            <a href="pinguicula.html" class="block">
+                <div class="bg-[url('Images/plants/pinguicula.png')] bg-cover bg-center rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-80 cursor-pointer">
+                    <div class="bg-black bg-opacity-60 h-full p-6 flex flex-col justify-end hover:bg-opacity-40 transition-all duration-300">
+                        <h3 class="text-white text-xl font-bold mb-2">Pinguicula Butterwort</h3>
+                        <p class="text-gray-200 text-sm">Beautiful sticky leaves with colorful flowers</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-gray-300 mt-20 p-4">
+        © 2025 West Coast Carnivorous Plants
+    </footer>
+</body>
+</html>
